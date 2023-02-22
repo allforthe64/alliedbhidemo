@@ -1,6 +1,6 @@
 const PatientCard = ({fName, lName, DOB, gender}) => {
 
-    const date = DOB
+    const date = DOB.split(' 0')[0].split(', ')[1]
     console.log(date)
 
     return (

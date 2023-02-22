@@ -15,7 +15,7 @@ const MyPatients = () => {
         console.log(patients)
 
         for (const [key, value] of Object.entries(patients)) {
-            compList.push(<PatientCard key={key} fName={value.fName} lName={value.lName} DOB={value.dob} gender={value.gender}/>)
+            compList.push(<PatientCard key={key} fName={value.fName} lName={value.lName} DOB={value.DOB} gender={value.gender}/>)
         }
     }
 
